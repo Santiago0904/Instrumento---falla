@@ -120,3 +120,29 @@ footer hr{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
+
+@media screen and (max-width: 480px) and (min-width: 352px) {
+    body{
+    .principal {
+        flex-flow: column;
+    }
+    .one, .tow, .three{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .two{
+        margin-top: 20px;
+    }
+    .three{
+        margin-top: 20px;
+    }
+    .principal{
+        margin-top: 40px;
+    }
+}
+footer hr {
+    width: 477px;
+    margin-left: 0px;
+    margin-right: 0px;
+}   
+}
